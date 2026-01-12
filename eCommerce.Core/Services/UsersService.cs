@@ -24,7 +24,7 @@ namespace eCommerce.Core.Services
                 return null;
             }
 
-            return new AuthenticationResponse(user.UserID, user.Email, user.PersonName, user.Gender, "token", Sucess: true);
+            return new AuthenticationResponse(user.UserID, user.Email, user.PersonName, user.Gender, "token", Success: true);
         }
 
 
@@ -45,7 +45,7 @@ namespace eCommerce.Core.Services
             }
 
             //Return success response
-            return new AuthenticationResponse(registeredUser.UserID, registeredUser.Email, registeredUser.PersonName, registeredUser.Gender, "token", Sucess: true);
+            return new AuthenticationResponse(registeredUser.UserID, registeredUser.Email, registeredUser.PersonName, registeredUser.Gender, "token", Success: true);
         }
     }
 }
