@@ -1,0 +1,6 @@
+Go to view section and open terminal:
+
+docker build -t users-microservice:1.0 -f eCommerce.API/Dockerfile .
+docker images
+docker tag users-microservice:1.0 utahir604/ecommerce-users-microservice:v1.0
+docker push utahir604/ecommerce-users-microservice:v1.0
