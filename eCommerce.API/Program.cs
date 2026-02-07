@@ -37,3 +37,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
 app.Run();
+
+
+//Build docker image command:
+//docker build -t users-microservice:latest -f ./eCommerce.API/Dockerfile .
